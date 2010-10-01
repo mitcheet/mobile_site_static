@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html manifest="library.manifest">
+    <head>
+	<link type="text/css" rel="stylesheet" media="screen" href="js/jqt/jqtouch/jqtouch.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="css/libmobile.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="js/jqt/themes/apple/theme.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jqt/jqtouch/jqtouch.js"></script>
+	<script type="text/javascript" src="js/local.js"></script>
+    <title>ZSR Library</title>
+    </head>
+    <body>
+        <div id="home" class="current">
+            <div class="toolbar">
+	   <img src="img/zsr.cupola.57x57.png" height="25px" width="25px"/> <a class="button flip" href="#about">About</a>
+                <h1>ZSR Library</h1>
+            </div>
+  	   <form id="catalog">
+                <ul class="edit rounded">
+                    <li><input type="text" name="lookfor" placeholder="Search" id="searchtext" />
+		    <input type="hidden" name="urlbase" value="http://cloud.lib.wfu.edu/vufind/Search/Results?&amp;type=AllFields&amp;submit=Find&amp;lookfor=" id="urlbase"/>
+		    </li>
+		</ul>
+		</form>
+	    <ul class="forward" id="search">
+		<li><a href="http://twitter.com/zsrlibrary/statuses/25431939931" target="_blank">zsrlibrary: An article about our e-readers available for checkout appeared on the front page of the latest OG&amp;B: http://bit.ly/cj7ZzW</a>	</li>
+		</ul>
+            <ul class="rounded">
+                <li class="forward"><a href="#contact">Contact</a></li>
+                <li class="forward"><a href="#hours">Hours</a></li>
+		<li class="forward"><a href="#whatsNew">What's New</a></li>
+		<li class="forward"><a href="#locations">Locations</a></li>
+            </ul>
+   <h2>External Links</h2>
+            <ul class="rounded">
+		<li class="forward"><a href="http://zsr.wfu.edu/studyrooms" target="_blank">Study Rooms</a></li>
+		<li class="forward"><a href="http://zsr.wfu.edu" target="_blank">Website</a></li>
+		<li class="forward"><a href="http://www.wfu.edu" target="_blank">University</a></li>
+       	</ul>
+	<div class="info"> </div>
+	</div>
+        <div id="contact">
+            <div class="toolbar">
+                <h1>Contact us</h1>
+                <a class="button back" href="#">Back</a>
+            </div>
+             <ul class="rounded">
+		<li class="sep">Ask Zak</li>
+                <li><a target="_blank" href="tel:3367585475">Call - (336) 758-5475</a></li>
+                <li><a target="_blank" href="mailto:askzak@wfu.edu">askzak@wfu.edu</a></li>
+                <li><a href="sms:3367585475" target="_blank">Text - (336) 758-5475</a></li>
+		<li class="sep">Bridge Help Desk</li>
+                <li><a target="_blank" href="tel:(336)758-4357">Call - (336) 758-4357</a></li>
+                <li><a target="_blank" href="mailto:help@wfu.edu">help@wfu.edu</a></li>
+                <li class="sep">Circulation</li>
+                <li><a target="_blank" href="tel:(336)758-5475">Call - (336)758-5475</a></li>
+                <li><a target="_blank" href="mailto:zsrcirc@wfu.edu">zsrcirc@wfu.edu</a></li>
+              </ul>	
+	   <div class="info"></div>
+        </div>
+        <div id="hours">
+            <div class="toolbar">
+                <h1>Hours</h1>
+            </div>
+               <a class="button back" href="#">Back</a>
+            <div>
+		
+			<ul class="rounded">
+				<li class="sep"<h2>ZSR Library</li>
+				<li>Monday - Thursday: 24 Hours</li>
+				<li>Friday: Closes at 7pm</li>
+				<li>Saturday: 10am - 7pm</li>
+				<li>Sunday: Opens at 10am</li>
+			</ul>	
+		
+			<ul class="rounded">
+				<li class="sep"<h2>The Bridge</li>
+				<li>Monday - Thursday: 8am - 1am</li>
+				<li>Friday: 8am - 7pm</li>
+				<li>Saturday: 10am - 7pm</li>
+				<li>Sunday: 10am - 1am</li>
+			</ul>	
+		
+			<ul class="rounded">
+				<li class="sep"<h2>Starbucks</li>
+				<li>Monday - Thursday: 7am - 7pm</li>
+				<li>Friday: 7am - 7pm</li>
+				<li>Saturday: 10am - 7pm</li>
+				<li>Sunday: 10am - 1am</li>
+			</ul>	
+		
+       	</div>
+        </div>
+<div id="whatsNew">
+    <div class="toolbar">
+       <h1>What's New</h1>
+        <a class="button back" href="#">Back</a>
+    </div>
+    <ul id="feeditems" class="edgetoedge">
+	
+        	<li class="arrow"><a href="#books">New Books</a></li>
+	
+        	<li class="arrow"><a href="#video">New Videos</a></li>
+	
+        	<li class="arrow"><a href="#twitter">Twitter</a></li>
+	
+        </ul>
+	<div class="info"> </div>
+</div>
+
+
+<div class="testfeed" id="books">
+    <div class="toolbar">
+        <h1>New Books</h1>
+        <a class="button back" href="#">Back</a>
+    </div>
+       <ul>loading ...</ul>
+<div class="info"></div>
+</div>
+
+<div class="testfeed" id="video">
+    <div class="toolbar">
+        <h1>New Videos</h1>
+        <a class="button back" href="#">Back</a>
+    </div>
+       <ul>loading ...</ul>
+<div class="info"></div>
+</div>
+
+<div class="testfeed" id="twitter">
+    <div class="toolbar">
+        <h1>Twitter</h1>
+        <a class="button back" href="#">Back</a>
+    </div>
+       <ul>loading ...</ul>
+<div class="info"></div>
+</div>
+
+
+<div id="about">
+    <div class="toolbar">
+        <h1>About the Library</h1>
+         <a class="button back" href="#">Back</a>
+    </div>
+    <ul>
+	<li class="rounded"><p><img src="img/library.jpg"/></p>Welcome to the mobile site for the Z. Smith Reynolds Library.  The mission of the ZSR library is to help our students, faculty and staff succeed!</li>
+    </ul>
+</div>
+
+<div id="locations">
+    <div class="toolbar">
+        <h1>Locations</h1>
+        <a class="button back" href="#">Back</a>
+    </div>
+	<ul class="rounded">
+		<li><a target="_blank" href="http://maps.google.com/maps?q=36.132048,-80.278097">Z. Smith Reynolds Library</a>
+		<li><a target="_blank" href="http://maps.google.com/maps?q=36.131879,-80.27696">ZSR Bookdrop 1</a>
+		<li><a target="_blank" href="http://maps.google.com/maps?q=36.134127,-80.275694">ZSR Bookdrop 2</a>
+		<li><img src="http://maps.google.com/maps/api/staticmap?center=&zoom=16&size=280x400&maptype=roadmap&sensor=false&markers=color:red|label:A|36.132048,-80.278097&markers=color:blue|label:B|36.131879,-80.27696&markers=color:blue|label:B|36.134127,-80.275694"/></li>
+	</ul>
+</div>
+
+</body>
+</html>

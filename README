@@ -1,0 +1,6 @@
+this site is an example static mobile libary website built using jQTouch, jQueryand other CSS and JavaScript functions.
+
+For simplicity, RSS feeds have been downloaded as text files and placed in the main directory.  
+
+local.js contains local javascript functions that bind the rss feed loads and catalog search redirect actions on the page.  All other customzied content is located in index.html and conforms to the jQTouch framework
+

@@ -1,0 +1,23 @@
+div.info {
+	background-color: black;
+	background-image: url(../img/wfulogo.280x55.gif);
+	background-position: center;
+	align: center;
+	height:60px;
+	cell-spacing: 3px;
+	cell-padding: 3px;
+	background-repeat:no-repeat;
+}
+
+.rounded p {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+li.sep { color:#FFCC66; }
+
+#search {
+	font-size: 12px;
+}
