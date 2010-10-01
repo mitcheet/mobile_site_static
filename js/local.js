@@ -30,7 +30,7 @@ $(document).ready(function() {
                         			var summary = $(this).find('description').text();
 						var link = $(this).find('link').text();
                         			var thumb1 = $(this).find('identifier').text()
-						//thumb = 'http://www.syndetics.com/index.php?isbn=/sc.gif&amp;client=wfuni&amp;upc=' + thumb1;
+						//thumb = 'http://www.syndetics.com/index.php?isbn=/sc.gif&amp;client=YOURUNIVCODE&amp;upc=' + thumb1;
 						//<img class="thumbnail" height="75" src=' + thumb + ' />
                         			var listItem = $('<li class="rounded"><a target="_blank" href="' + link + '"><img class="thumbnail" src="http://localhost/~mitcheet/zsrmobile2/static/localimg/zsr.cupola.57x57.png" /></a>' + '<span>' + title + '</span>' +
 pubDate + '<br/>' + summary + '</li>');
